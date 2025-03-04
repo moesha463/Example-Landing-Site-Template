@@ -1,0 +1,37 @@
+.simple-card, .simple-card-reverse{
+    padding: 50px 0;
+}
+.simple-card-wrap{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.simple-card-reverse .simple-card-wrap{
+    flex-direction: row-reverse;
+}
+.simple-card-img img{
+    border-radius: 5px;
+    max-width: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.simple-card-title{
+    color: var(--font-color-2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.simple-card-text{
+    text-align: center;
+}
+.simple-card-text p{
+    color: var(--font-color-2);
+}
+@media (max-width: 900px){
+    .simple-card-img img{
+        width: 100%;
+    }
+    .simple-card-wrap, .simple-card-reverse .simple-card-wrap{
+        flex-direction: column;
+    }
+}

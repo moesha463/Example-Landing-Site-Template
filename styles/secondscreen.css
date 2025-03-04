@@ -1,0 +1,72 @@
+.second-screen{ 
+    padding-top: 57px;
+    padding-bottom: 37px;
+    position: relative;
+    background: url(../images/cars/car2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.second-screen .container{
+    position: relative;
+    z-index: 1;
+}
+.second-screen::after{
+    content: '';
+    background-color: var(--mask-color);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.second-screen-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Raleway";
+    color: var(--font-color-1);
+    margin-bottom: 68px;
+}
+.second-screen-title::after{
+    content: "";
+        position: absolute;
+        left: 50%;
+        top: calc(100% - 165px);
+        transform: translateX(-50%);
+        width: 80px;
+        height: 2px;
+        background: var(--font-color-1);
+}
+.second-screen-text{
+    margin-bottom: 68px;
+}
+.second-screen-text p{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: var(--font-color-1);
+}
+.second-screen-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-screen-link a{
+    transition: 1s;
+    border: solid 1px var(--font-color-1);
+    padding: 11px 26px;
+    color: var(--font-color-1);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.second-screen-link a:hover{
+    background-color: var(--font-color-1);
+    color: var(--font-color-2);
+    scale: 1.1;
+}

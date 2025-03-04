@@ -1,0 +1,17 @@
+.header{
+    background-color: var(--element-color-1);
+    padding: 20px 0;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title a p{
+    color: var(--font-color-1);
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.22px;
+    text-align: left;
+}

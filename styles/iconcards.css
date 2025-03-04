@@ -1,0 +1,94 @@
+.icon-cards{
+    padding: 80px 0;
+}
+.icon-cards-title{
+    text-align: center;
+    position: relative;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Raleway";
+    color: var(--font-color-2);
+    margin-bottom: 68px;
+}
+.icon-cards-title::after{
+    content: "";
+    bottom: -34px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background: var(--font-color-2);
+}
+.icon-cards-text{
+    margin-bottom: 68px;
+}
+.icon-cards-text p{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: var(--font-color-2);
+}
+
+
+/*Cards*/
+.icon-cards-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(10px ,350px));
+    justify-content: space-between;
+}
+.icon-cards-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-cards-card-image{
+    border: 1px solid var(--font-color-2);
+    border-radius: 100%;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-cards-card-image i{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--font-color-2);
+}
+.icon-cards-card-title{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+    color: var(--font-color-2);
+    margin-bottom: 16px;
+
+}
+.icon-cards-card-text p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: center;
+    color: var(--font-color-2);
+
+}
+@media (max-width: 900px){
+    .icon-cards-grid{
+        grid-template-columns: repeat(2, minmax(10px ,350px));
+    }
+        
+}
+@media (max-width: 600px){
+    .icon-cards-grid{
+        grid-template-columns: repeat(1, minmax(10px ,350px));
+        justify-content: center;
+    }
+}

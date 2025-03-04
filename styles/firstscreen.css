@@ -1,0 +1,123 @@
+.first-screen{
+    background-image: url(../images/cars/car1.webp);
+    object-fit:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: center;
+    position: relative;
+    padding: 100px 0;
+}
+.first-screen::after{
+    content: '';
+    background-color: var(--mask-color);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.first-screen .container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+.first-info{
+    max-width: 540px;
+}
+.first-info-title{
+    margin-bottom: 42px;
+    text-align: left;
+}
+.first-info-title h2{
+    color: var(--font-color-1);
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70.31px;
+    text-align: left;
+}
+.first-info-text{
+    text-align: left;
+    margin-bottom: 90px;
+}
+.first-info-text p{
+    color: var(--font-color-1);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+}
+.first-info-text::after{
+    content: "";
+    position: absolute;
+    width: 64px;
+    transform: translateY(50px);
+    left: 20px;
+    height: 2px;
+    background: var(--font-color-1);
+}
+.second-info-text p{
+    width: 282px;
+    color: var(--font-color-1);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.78px;
+    text-align: left;
+    margin-bottom: 39px;
+}
+.first-info-link{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.first-info-link a{
+    transition: 1s;
+    border: 1px solid var(--font-color-1);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 11px 25px;
+    color: var(--font-color-1);
+}
+.first-info-link a:hover{
+    background-color: var(--font-color-1);
+    color: var(--font-color-2);
+    scale: 1.1;
+}
+@media (max-width: 800px) {
+    .first-screen .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-info h2{
+        text-align: center;
+    }
+    .first-info-text{
+        text-align: center;
+    }
+    .first-info-text::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: calc(100% - 185px);
+        transform: translateX(-50%);
+        width: 80px;
+        height: 2px;
+    }
+    
+    .first-info-text p{
+        text-align: center;
+    }
+
+    .second-info-text p{
+        width: auto;
+        text-align: center;
+    }
+    .first-info-link{
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+}

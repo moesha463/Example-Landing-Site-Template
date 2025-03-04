@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+* {
+  font-family: Raleway;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+section:nth-child(odd){
+  background-color: var(--section-color-1);
+}
+section:nth-child(even) {
+  background-color: var(--section-color-2);
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0 20px;
+  margin: auto;
+}
