@@ -1,3 +1,18 @@
-[Example Landing Site Template](https://moesha463.github.io/Example-Landing-Site-Template/)
+# Example Landing Site Template
 
-For for icons and other things I use this [Site](https://fontawesome.com/)
+This repository contains the code for **Example Landing Site Template**, a simple and customizable web page template.
+
+## Preview
+
+Check out the live preview of the site here: [Example Landing Site Template](https://moesha463.github.io/Example-Landing-Site-Template/).
+
+## Features
+
+- Integration with icons from [Font Awesome](https://fontawesome.com/)
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Example-Landing-Site-Template.git
