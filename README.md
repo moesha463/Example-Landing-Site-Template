@@ -15,4 +15,4 @@ Check out the live preview of the site here: [Example Landing Site Template](htt
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Example-Landing-Site-Template.git
+git clone https://github.com/moesha463/Example-Landing-Site-Template.git
