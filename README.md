@@ -1,5 +1,8 @@
 # Example Landing Site Template
 
+![moesha463 github io_Example-Landing-Site-Template_](https://github.com/user-attachments/assets/39bd88ce-1fed-4af3-865d-907e7bb5cf1f)
+
+
 This repository contains the code for **Example Landing Site Template**, a simple and customizable web page template.
 
 ## Preview
