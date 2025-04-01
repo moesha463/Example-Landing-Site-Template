@@ -10,8 +10,6 @@ See the full live version of the site: [Example Landing Site Template](https://m
 
 ## ✨ Features
 
-- **User-Friendly Customization**: Tailor the template effortlessly to suit your needs.
-- **Responsive Design**: Looks great on all devices—desktops, tablets, and mobiles.
 - **Icon Integration**: Comes equipped with icons from [Font Awesome](https://fontawesome.com/) for a modern touch.
 
 ## 🚀 Usage
