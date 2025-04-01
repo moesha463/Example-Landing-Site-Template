@@ -1,7 +1,5 @@
 # Example Landing Site Template
 
-![Full Preview of the Site](https://github.com/user-attachments/assets/39bd88ce-1fed-4af3-865d-907e7bb5cf1f)
-
 Welcome to the **Example Landing Site Template** repository! This is a simple and elegant web page template designed for easy customization and seamless integration.
 
 ## 🌐 Live Preview
